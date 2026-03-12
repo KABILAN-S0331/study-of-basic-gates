@@ -1,3 +1,6 @@
+# EX-01 Study-of-basic-gates
+# DATE: 09-03-2026
+
 ### study-of-basic-gates
 
 **AIM:** 
@@ -61,19 +64,36 @@ Y= A⊕B
 
 5.	For different input combinations generate the timing diagram.
 
-
 **PROGRAM**
-
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+Developed by: Kabilan S
+Register Number: 212225230119
+~~~
+module LogicGates1(a,b,c);
+input a;
+input b;
+output [6:0] c;
+assign c[0]=a&b;
+assign c[1]=a|b;
+assign c[2]=~(a&b);
+assign c[3]=~(a|b);
+assign c[4]=a^b;
+assign c[5]=~(a^b);
+assign c[6]=~a;
+endmodule 
+~~~
  
 **Logic symbol & Truthtable**
+<img width="1920" height="1200" alt="380988152-a475b1fc-6f6c-4df9-b933-000cd037bbab" src="https://github.com/user-attachments/assets/402be786-5488-4396-9dc9-d8cd47b790b1" />
 
 **RTL realization Output:** 
+<img width="1920" height="1200" alt="380988152-a475b1fc-6f6c-4df9-b933-000cd037bbab" src="https://github.com/user-attachments/assets/b78f12a6-c95d-4300-8c19-4788e0c8b947" />
 
 **RTL**
+<img width="1920" height="1200" alt="380988152-a475b1fc-6f6c-4df9-b933-000cd037bbab" src="https://github.com/user-attachments/assets/bf2816b9-1968-46c4-8a95-6723917c762a" />
+
 
 **Result:**
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
+
 
 
