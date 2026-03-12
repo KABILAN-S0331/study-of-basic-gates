@@ -65,9 +65,11 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 **PROGRAM**
+
+~~~
 Developed by: Kabilan S
 Register Number: 212225230119
-~~~
+
 module LogicGates1(a,b,c);
 input a;
 input b;
