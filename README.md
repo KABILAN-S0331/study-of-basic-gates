@@ -1,5 +1,5 @@
 # EX-01 Study-of-basic-gates
-# DATE: 09-03-2026
+# DATE: 12-03-2026
 
 ### study-of-basic-gates
 
